@@ -1,224 +1,560 @@
-<!DOCTYPE html><!--  Last Published: Thu Apr 20 2023 06:36:57 GMT+0000 (Coordinated Universal Time)  -->
-<html data-wf-page="643fefcbd137cf2c495c2a1d" data-wf-site="6423f73208bd3f6cfa24d960">
-<head>
-  <meta charset="utf-8">
-  <title>Interactive Media and Game Design</title>
-  <meta content="Interactive Media and Game Design" property="og:title">
-  <meta content="Interactive Media and Game Design" property="twitter:title">
-  <meta content="width=device-width, initial-scale=1" name="viewport">
-  <link href="../../css/normalize.css" rel="stylesheet" type="text/css">
-  <link href="../../css/webflow.css" rel="stylesheet" type="text/css">
-  <link href="../../css/cuc-animation.webflow.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
-  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
-  <script type="text/javascript">
+<!DOCTYPE html>
+<!--  Last Published: Thu Apr 20 2023 06:36:57 GMT+0000 (Coordinated Universal Time)  -->
+<html
+  data-wf-page="643fefcbd137cf2c495c2a1d"
+  data-wf-site="6423f73208bd3f6cfa24d960"
+>
+  <head>
+    <meta charset="utf-8" />
+    <title>Interactive Media and Game Design</title>
+    <meta content="Interactive Media and Game Design" property="og:title" />
+    <meta
+      content="Interactive Media and Game Design"
+      property="twitter:title"
+    />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link href="../../css/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/webflow.css" rel="stylesheet" type="text/css" />
+    <link
+      href="../../css/cuc-animation.webflow.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link
+      href="https://fonts.gstatic.com"
+      rel="preconnect"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"
+      type="text/javascript"
+    ></script>
+    <script type="text/javascript">
       WebFont.load({
         google: {
-          families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic", "Mulish:200,300,regular,500,600,700,800,900"]
-        }
+          families: [
+            'Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic',
+            'Mulish:200,300,regular,500,600,700,800,900',
+          ],
+        },
       });
     </script>
-  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
-  <script type="text/javascript">
-      ! function(o, c) {
+    <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+    <script type="text/javascript">
+      !(function (o, c) {
         var n = c.documentElement,
-          t = " w-mod-";
-        n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
-      }(window, document);
+          t = ' w-mod-';
+        (n.className += t + 'js'),
+          ('ontouchstart' in o ||
+            (o.DocumentTouch && c instanceof DocumentTouch)) &&
+            (n.className += t + 'touch');
+      })(window, document);
     </script>
-  <link href="../../images/favicon.png" rel="shortcut icon" type="image/x-icon">
-  <link href="../../images/webclip.png" rel="apple-touch-icon">
-</head>
-<body class="main-body">
-  <div>
-    <nav class="navigation">
-      <div class="navbar wf-section">
-        <div class="container full-width w-container">
-          <div class="nav-warpper">
-            <div class="nav-left">
-              <a href="../../index.html" class="w-nav-brand"><img src="../../images/cuc-anima-logo.svg" loading="lazy" alt="cuc-anima-logo" class="nav-logo"></a>
-              <ul role="list" class="nav-list">
-                <li>
-                  <a href="../../introduction.html" class="nav-link w-inline-block">
-                    <div>Welcome to CUC Anima</div>
-                    <div class="nav-link-underline"></div>
-                  </a>
-                </li>
-                <li>
-                  <a href="../../news.html" class="nav-link w-inline-block">
-                    <div>News &amp; Events</div>
-                    <div class="nav-link-underline"></div>
-                  </a>
-                </li>
-                <li>
-                  <a href="/programmes/#undergraduate" class="nav-link w-inline-block">
-                    <div>Undergraduate Programme</div>
-                    <div class="nav-link-underline"></div>
-                  </a>
-                </li>
-                <li>
-                  <a href="/programmes/#postgraduate" class="nav-link w-inline-block">
-                    <div>Postgraduate Programme</div>
-                    <div class="nav-link-underline"></div>
-                  </a>
-                </li>
-                <li>
-                  <a href="../../fields.html" class="nav-link w-inline-block">
-                    <div>Fields</div>
-                    <div class="nav-link-underline"></div>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class="nav-right">
-              <div class="language-switch-div">
-                <a href="../../zh.html" class="language">ZH</a>
-                <a href="../../index.html" class="language current">EN</a>
+    <link
+      href="../../images/favicon.png"
+      rel="shortcut icon"
+      type="image/x-icon"
+    />
+    <link href="../../images/webclip.png" rel="apple-touch-icon" />
+  </head>
+  <body class="main-body">
+    <div>
+      <nav class="navigation">
+        <div class="navbar wf-section">
+          <div class="container full-width w-container">
+            <div class="nav-warpper">
+              <div class="nav-left">
+                <a href="../../index.html" class="w-nav-brand"
+                  ><img
+                    src="../../images/cuc-anima-logo.svg"
+                    loading="lazy"
+                    alt="cuc-anima-logo"
+                    class="nav-logo"
+                /></a>
+                <ul role="list" class="nav-list">
+                  <li>
+                    <a
+                      href="../../introduction.html"
+                      class="nav-link w-inline-block"
+                    >
+                      <div>Welcome to CUC Anima</div>
+                      <div class="nav-link-underline"></div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="../../news.html" class="nav-link w-inline-block">
+                      <div>News &amp; Events</div>
+                      <div class="nav-link-underline"></div>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="programmes.html#undergraduate"
+                      class="nav-link w-inline-block"
+                    >
+                      <div>Undergraduate Programme</div>
+                      <div class="nav-link-underline"></div>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="programmes.html#postgraduate"
+                      class="nav-link w-inline-block"
+                    >
+                      <div>Postgraduate Programme</div>
+                      <div class="nav-link-underline"></div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="../../fields.html" class="nav-link w-inline-block">
+                      <div>Fields</div>
+                      <div class="nav-link-underline"></div>
+                    </a>
+                  </li>
+                </ul>
               </div>
-              <a data-w-id="ba8180e9-3da5-24a7-c637-3918dad279c7" href="#" class="menu-button w-inline-block"><img src="../../images/burger-icon.svg" loading="lazy" alt="burger-icon" class="lottie-menu">
-                <div class="menu-burger-text menu">memu</div>
-                <div class="menu-burger-text close">close</div>
-              </a>
+              <div class="nav-right">
+                <div class="language-switch-div">
+                  <a href="../../zh.html" class="language">ZH</a>
+                  <a href="../../index.html" class="language current">EN</a>
+                </div>
+                <a
+                  data-w-id="ba8180e9-3da5-24a7-c637-3918dad279c7"
+                  href="#"
+                  class="menu-button w-inline-block"
+                  ><img
+                    src="../../images/burger-icon.svg"
+                    loading="lazy"
+                    alt="burger-icon"
+                    class="lottie-menu"
+                  />
+                  <div class="menu-burger-text menu">memu</div>
+                  <div class="menu-burger-text close">close</div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nav-full-height-menu">
+          <div class="menu-container">
+            <div class="menu-links-container">
+              <div
+                id="w-node-ba8180e9-3da5-24a7-c637-3918dad279d0-dad2799b"
+                class="menu-item"
+              >
+                <div
+                  id="w-node-ba8180e9-3da5-24a7-c637-3918dad279d1-dad2799b"
+                  class="menu-title-wrapper"
+                >
+                  <div class="menu-title">Cuc-Anima</div>
+                  <img
+                    src="../../images/arrow.svg"
+                    loading="lazy"
+                    id="w-node-ba8180e9-3da5-24a7-c637-3918dad279d4-dad2799b"
+                    alt="nav-arrow-img"
+                    class="nav-arrow-img"
+                  />
+                </div>
+                <a href="../../index.html" class="nav-link big w-inline-block">
+                  <div>Hello！CUC Anima！</div>
+                  <div class="nav-link-underline"></div>
+                </a>
+                <a
+                  href="../../introduction.html"
+                  class="nav-link big w-inline-block"
+                >
+                  <div>Welcome to Cuc-Anima</div>
+                  <div class="nav-link-underline"></div>
+                </a>
+                <a href="../../news.html" class="nav-link big w-inline-block">
+                  <div>News &amp; Events</div>
+                  <div class="nav-link-underline"></div>
+                </a>
+              </div>
+              <div
+                id="w-node-ba8180e9-3da5-24a7-c637-3918dad279dd-dad2799b"
+                class="menu-item"
+              >
+                <div
+                  id="w-node-ba8180e9-3da5-24a7-c637-3918dad279de-dad2799b"
+                  class="menu-title-wrapper"
+                >
+                  <div class="menu-title">majors</div>
+                  <img
+                    src="../../images/arrow.svg"
+                    loading="lazy"
+                    alt="nav-arrow-img"
+                    class="nav-arrow-img"
+                  />
+                </div>
+                <a
+                  href="programmes.html#undergraduate"
+                  class="nav-link big w-inline-block"
+                >
+                  <div>Undergraduate programme</div>
+                  <div class="nav-link-underline"></div>
+                </a>
+                <a
+                  href="programmes.html#postgraduate"
+                  class="nav-link big w-inline-block"
+                >
+                  <div>Postgraduate Programme</div>
+                  <div class="nav-link-underline"></div>
+                </a>
+                <a
+                  href="../../programmes.html"
+                  class="nav-link big w-inline-block"
+                >
+                  <div>Ph.D. Programme</div>
+                  <div class="nav-link-underline"></div>
+                </a>
+              </div>
+              <div
+                id="w-node-ba8180e9-3da5-24a7-c637-3918dad279ee-dad2799b"
+                class="menu-item"
+              >
+                <div
+                  id="w-node-ba8180e9-3da5-24a7-c637-3918dad279ef-dad2799b"
+                  class="menu-title-wrapper"
+                >
+                  <div class="menu-title">Fields</div>
+                  <img
+                    src="../../images/arrow.svg"
+                    loading="lazy"
+                    alt="nav-arrow-img"
+                    class="nav-arrow-img"
+                  />
+                </div>
+                <a href="../../fields.html" class="nav-link big w-inline-block">
+                  <div>Fields</div>
+                  <div class="nav-link-underline"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <img
+            src="../../images/cuc-anima-logo-background.svg"
+            loading="lazy"
+            alt="cuc-anima-logo-background"
+            class="menu-bg-img"
+          />
+        </div>
+      </nav>
+      <div class="section first wf-section">
+        <div class="container w-container">
+          <div class="news-left-title-div">
+            <div class="main-titlte-item news">
+              <h2 class="title big">Interactive Media and Game Design</h2>
             </div>
           </div>
         </div>
       </div>
-      <div class="nav-full-height-menu">
-        <div class="menu-container">
-          <div class="menu-links-container">
-            <div id="w-node-ba8180e9-3da5-24a7-c637-3918dad279d0-dad2799b" class="menu-item">
-              <div id="w-node-ba8180e9-3da5-24a7-c637-3918dad279d1-dad2799b" class="menu-title-wrapper">
-                <div class="menu-title">Cuc-Anima</div><img src="../../images/arrow.svg" loading="lazy" id="w-node-ba8180e9-3da5-24a7-c637-3918dad279d4-dad2799b" alt="nav-arrow-img" class="nav-arrow-img">
-              </div>
-              <a href="../../index.html" class="nav-link big w-inline-block">
-                <div>Hello！CUC Anima！</div>
-                <div class="nav-link-underline"></div>
-              </a>
-              <a href="../../introduction.html" class="nav-link big w-inline-block">
-                <div>Welcome to Cuc-Anima</div>
-                <div class="nav-link-underline"></div>
-              </a>
-              <a href="../../news.html" class="nav-link big w-inline-block">
-                <div>News &amp; Events</div>
-                <div class="nav-link-underline"></div>
-              </a>
-            </div>
-            <div id="w-node-ba8180e9-3da5-24a7-c637-3918dad279dd-dad2799b" class="menu-item">
-              <div id="w-node-ba8180e9-3da5-24a7-c637-3918dad279de-dad2799b" class="menu-title-wrapper">
-                <div class="menu-title">majors</div><img src="../../images/arrow.svg" loading="lazy" alt="nav-arrow-img" class="nav-arrow-img">
-              </div>
-              <a href="/programmes/#undergraduate" class="nav-link big w-inline-block">
-                <div>Undergraduate programme</div>
-                <div class="nav-link-underline"></div>
-              </a>
-              <a href="/programmes/#postgraduate" class="nav-link big w-inline-block">
-                <div>Postgraduate Programme</div>
-                <div class="nav-link-underline"></div>
-              </a>
-              <a href="../../programmes.html" class="nav-link big w-inline-block">
-                <div>Ph.D. Programme</div>
-                <div class="nav-link-underline"></div>
-              </a>
-            </div>
-            <div id="w-node-ba8180e9-3da5-24a7-c637-3918dad279ee-dad2799b" class="menu-item">
-              <div id="w-node-ba8180e9-3da5-24a7-c637-3918dad279ef-dad2799b" class="menu-title-wrapper">
-                <div class="menu-title">Fields</div><img src="../../images/arrow.svg" loading="lazy" alt="nav-arrow-img" class="nav-arrow-img">
-              </div>
-              <a href="../../fields.html" class="nav-link big w-inline-block">
-                <div>Fields</div>
-                <div class="nav-link-underline"></div>
-              </a>
-            </div>
+      <div class="section last wf-section">
+        <div class="container w-container">
+          <div class="richtext w-richtext">
+            <h2>Overview and Objectives of the Program</h2>
+            <h3>Program Overview</h3>
+            <p>
+              This program is the integration of the master&#x27;s degree of Art
+              and Science (Virtual Reality and Interaction Direction) and the
+              master&#x27;s degree of Computer Technology (Game Development
+              Direction).
+            </p>
+            <p>
+              It was established in November 2006 at the Communication
+              University of China, and was approved by the Ministry of Education
+              in 2007 as the first secondary discipline of Art and Science in
+              China. It has a high-level interdisciplinary teaching and research
+              team, and has created academic research platforms such as the
+              series of papers &quot;Art and Science Research&quot; and the
+              WeChat Official Accounts &quot;Art and Science Research&quot;.
+            </p>
+            <p>
+              This discipline mainly uses scientific theories, scientific
+              methods, and technological means to analyze and explore artistic
+              phenomena and their laws in important aspects of artistic
+              development such as artistic expression, artistic communication,
+              and artistic reception from the perspective of scientific
+              cognition. It also analyzes practical problems in artistic
+              innovation practice, and explores new artistic expression spaces
+              through new scientific methods and technological means. This
+              program belongs to an interdisciplinary field that reflects the
+              characteristics of interdisciplinary integration, involving
+              disciplines such as art, game design, cognitive psychology,
+              cognitive science, intelligent science, new media art and
+              technology, computer interaction technology, digital information
+              processing technology, etc., forming a disciplinary feature and
+              advantage of close integration of production, academia, research,
+              and application.
+            </p>
+            <p>‍</p>
+            <h3>Objectives</h3>
+            <p>
+              This program aims to cultivate advanced professionals with a good
+              sense of innovation and research ability, who can engage in
+              research, teaching, creation, management and other work in the
+              interdisciplinary field of art and science, as well as high-level
+              compound innovative talents in various fields such as media and
+              entertainment technology.
+            </p>
+            <p>Graduates of this program are expected to:</p>
+            <ol start="" role="list">
+              <li>
+                Have good moral qualities, academic integrity, comprehensive
+                qualities, and innovative spirit;
+              </li>
+              <li>
+                Master the basic theories and specialized knowledge of this
+                program systematically, and possess artistic literacy and
+                artistic creativity;
+              </li>
+              <li>
+                Be able to comprehensively apply the basic theories and
+                specialized knowledge of this program to independently conduct
+                research on specific topics or artistic creation practices, as
+                well as product and device design and development;
+              </li>
+              <li>
+                Master one foreign language, be proficient in reading
+                professional literature, and have certain foreign language
+                writing skills and international academic communication
+                abilities;
+              </li>
+              <li>
+                Possess the ability to independently analyze and solve
+                theoretical and practical problems related to this discipline,
+                and be able to independently carry out high-level scientific
+                research, creation, design and development work.
+              </li>
+            </ol>
+            <p>‍</p>
+            <h2>Research Direction and Content</h2>
+            <p>
+              This program focuses on the theory and practice of human-computer
+              interaction, the creation and consumption of game works, and the
+              planning and communication of e-sports. By using interdisciplinary
+              theories and research methods, it explores the creative logic and
+              industry development rules in this professional field, and studies
+              the impact of creative achievements on a societal level. By
+              investigating new concepts, new forms, new products, and new
+              applications in this field, it combines the development of art and
+              science in the era of intelligent human-computer interaction with
+              social needs, promotes interaction between academia, industry, and
+              research, and focuses on the research of various issues in the
+              fields of human-computer interaction, games, and e-sports,
+              including basic theories, applied theories, critical theories, and
+              theoretical system construction, to cultivate advanced specialized
+              talents for the development trends of human-computer interaction,
+              games, and e-sports fields.
+            </p>
+            <p>‍</p>
+            <h2>Faculty Team</h2>
+            <p>
+              This program has a high-level interdisciplinary faculty team with
+              academic backgrounds in arts, technology, and humanities. The
+              majority of the faculty are engaged in research areas such as
+              digital media aesthetics, networks and intelligent media, future
+              imaging, interaction design, game design, artistic expression, and
+              scientific cognition. Among them, there are 4 professors and 10
+              associate professors. At the same time, this professional has also
+              established a high-level and international part-time faculty team.
+            </p>
+            <p>‍</p>
+            <h2>Talent Cultivation</h2>
+            <h3>1. Core courses</h3>
+            <p>
+              Includes foundations of art informatics, design and contemporary
+              culture, theory and practice of human-computer interaction, game
+              design theory, game creation, audiovisual psychology of art, art
+              style studies, innovative methods of design thinking, etc.
+            </p>
+            <p>‍</p>
+            <h3>2. Research platforms</h3>
+            <p>
+              This program has several significant research platforms, including
+              the Beijing Key Laboratory of Digital Animation Technology, the
+              National Demonstration Center for Animation and Digital Media Art
+              Experiment Teaching, and the National Animation Teaching and
+              Research Base. It also has numerous research institutions such as
+              the Animation Research Institute, the Digital Technology and Art
+              R&amp;amp;D Center, the Editorial Department of the China
+              Animation Yearbook, the Asian Animation Research Center, and the
+              China Animation Art Exhibition Hall, forming an integrated
+              platform that combines research, teaching, creation, and
+              production. The professional construction unit is currently the
+              location of the Animation and Digital Media Art Teaching Steering
+              Committee of the Ministry of Education, the National Cultural
+              Department Digital Creative Advanced Training Base, the organizer
+              of the China (Beijing) International College Student Animation
+              Festival, responsible for editing and publishing the China
+              Animation Yearbook, and in charge of the &quot;Joint Cultivation
+              Class for High-end Animation Talents&quot; sponsored by the
+              Ministry of Education and the Ministry of Culture. It is also the
+              base for &quot;Training of Young Backbone Teachers in Animation
+              Major&quot; by the Ministry of Education, the location of the
+              Computer Basic Education Research Association of Chinese Higher
+              Education Institutions, and the location of the Animation and
+              Digital Media Art Professional Committee of the National Higher
+              Education Film and Television Society and the Digital Photography
+              and Videography Committee of China Film and Television Technology
+              Society. It has academic research platforms such as the journal
+              &quot;Art and Science Research&quot;, the WeChat Official Account
+              &quot;Art and Science Research&quot;, interdisciplinary education
+              forums on art and science, academic forums for graduate students
+              in art and science research, the China Esports Cultural Education
+              Industry Alliance, and the China University Esports Association,
+              providing rich resources and diverse platforms for graduate
+              students&#x27; learning and research.
+            </p>
+            <p>‍</p>
+            <h3>
+              3. Awards and Outstanding Journal articles, Invention patents,
+              etc.
+            </h3>
+            <p>
+              In recent years, works by faculty and students have won over 50
+              awards and nominations in top international festivals and
+              exhibitions, such as the American Student Oscars, New York Design
+              Competition, SIGGRAPH in the United States, Chicago International
+              Film Festival in the United States, Tokyo Anime Festival in Japan,
+              Annecy International Animation Festival in France, Stuttgart
+              Animation Festival in Germany, Roanne International Animation
+              Festival in France, BAF Animation Awards in India, Tehran
+              International Animation Festival in Iran, and One Show in the
+              United States. They have also received over 200 awards in domestic
+              top festivals and exhibitions, such as the Huabiao Awards, Golden
+              Eagle Awards, China International Animation Festival &quot;Golden
+              Monkey Awards,&quot; China International Comics Festival
+              &quot;Golden Dragon Awards,&quot; China Animation Association
+              &quot;Beautiful Monkey Awards,&quot; and Taiwan Times Golden Calf
+              Awards. In addition, they have won important awards in various
+              levels of competitions, such as the China Independent Game
+              Festival, major Game Jams, and game production competitions
+              organized by companies such as Tencent and Giant. Graduate
+              students have also published papers that have won awards such as
+              the Excellent Award in the Graduate Group of the 7th National
+              College Student Film Review Competition and the Bronze Award in
+              the &quot;National Film Studies Youth Scholars Forum&quot; of the
+              Beijing Film Academy.
+            </p>
+            <p>‍</p>
+            <h3>4. Academic Exchange Program</h3>
+            <p>
+              In terms of academic exchange, this program has established
+              multiple academic exchange projects, such as student exchange
+              programs with the Canada-China Arts and Technology Alliance, the
+              University of Aberdeen in the United Kingdom, the National
+              University of Arts in South Korea, and Northeastern University in
+              the United States; &quot;Asia Campus Plan&quot; co-creation
+              projects with Tokyo University of the Arts and Korea National
+              University of Arts in China, Japan, and South Korea; and close
+              cooperation with foreign production companies and institutions,
+              sending teachers abroad for professional learning and project
+              cooperation on a regular basis. International joint practice
+              courses on &quot;Art and Technology Creative Communication,&quot;
+              interactive design, and digital product prototyping have been
+              carried out in collaboration with the Digital Media Center in
+              Canada, Northeastern University in the United States, and
+              Chung-Ang University in South Korea. Teachers are selected every
+              year to participate in international animation festivals and
+              academic exchange activities. Students are encouraged to directly
+              communicate with international masters, test their professional
+              level on the international stage, and learn from high-level
+              talents at home and abroad.
+            </p>
+            <p>‍</p>
+            <h2>Career Path of Graduates</h2>
+            <p>
+              In addition to those who pursue further studies abroad, graduates
+              of this discipline mainly work in higher education institutions
+              such as Beijing Normal University, Sichuan University,
+              Communication University of China, Tsinghua University, and
+              Guangzhou Academy of Fine Arts; traditional media industries such
+              as Xinhua News Agency, CCTV, Beijing TV, Hunan TV, Phoenix TV, and
+              Shandong TV; national institutions such as China Science and
+              Technology Museum, National Museum, National Library, National
+              Film Museum, and Industrial and Commercial Bank of China; as well
+              as international renowned companies such as Yahoo, Google, Airbnb,
+              Scanline VFX, Pixar, and Industrial Light &amp;amp; Magic, and
+              domestic leading new media companies such as Tencent, Alibaba,
+              Baidu, iQiyi, JD.com, ByteDance, and Megvii. Some graduates have
+              also started their own companies related to virtual reality and
+              digital entertainment, developing and selling related products.
+            </p>
           </div>
-        </div><img src="../../images/cuc-anima-logo-background.svg" loading="lazy" alt="cuc-anima-logo-background" class="menu-bg-img">
+        </div>
       </div>
-    </nav>
-    <div class="section first wf-section">
-      <div class="container w-container">
-        <div class="news-left-title-div">
-          <div class="main-titlte-item news">
-            <h2 class="title big">Interactive Media and Game Design</h2>
+      <div class="footer wf-section">
+        <div class="container w-container">
+          <div class="w-layout-grid footer-grid">
+            <div id="w-node-_5ed0421e-0be0-db8e-91df-9a924edb80a5-4edb80a1">
+              <a
+                id="w-node-_5ed0421e-0be0-db8e-91df-9a924edb80a6-4edb80a1"
+                href="../../index.html"
+                class="w-inline-block"
+                ><img
+                  src="../../images/cuc-anima-logo-white.svg"
+                  loading="lazy"
+                  id="w-node-_5ed0421e-0be0-db8e-91df-9a924edb80a7-4edb80a1"
+                  alt="cuc-anima-logo-white"
+                  class="footer-logo-img"
+              /></a>
+            </div>
+            <div
+              id="w-node-_5ed0421e-0be0-db8e-91df-9a924edb80a8-4edb80a1"
+              class="footer-infomation-grid"
+            >
+              <div
+                id="w-node-_5ed0421e-0be0-db8e-91df-9a924edb80a9-4edb80a1"
+                class="footer-info-wrapper"
+              >
+                <div class="footer-info">
+                  <div class="text-block">TEL:</div>
+                  <a href="tel:+86010-65783476" class="footer-link"
+                    >+86 010-65783476</a
+                  >
+                </div>
+                <div class="footer-info">
+                  <div class="text-block">Email:</div>
+                  <a href="mailto:AnimationCUC@gmail.com" class="footer-link"
+                    >AnimationCUC@gmail.com</a
+                  >
+                </div>
+                <div class="footer-info">
+                  <div class="text-block">location:</div>
+                  <a
+                    href="https://goo.gl/maps/VK59Tn8BiqGrpGDt7"
+                    target="_blank"
+                    class="footer-link"
+                    >No.1 Dingfuzhuang East Street, Chaoyang District, Beijing,
+                    100024 People&#x27;s Republic of China</a
+                  >
+                </div>
+              </div>
+              <div>
+                <img
+                  src="../../images/erweima.webp"
+                  loading="lazy"
+                  alt=""
+                  class="erweima-img"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="section last wf-section">
-      <div class="container w-container">
-        <div class="richtext w-richtext">
-          <h2>Overview and Objectives of the Program</h2>
-          <h3>Program Overview</h3>
-          <p>This program is the integration of the master&#x27;s degree of Art and Science (Virtual Reality and Interaction Direction) and the master&#x27;s degree of Computer Technology (Game Development Direction). </p>
-          <p>It was established in November 2006 at the Communication University of China, and was approved by the Ministry of Education in 2007 as the first secondary discipline of Art and Science in China. It has a high-level interdisciplinary teaching and research team, and has created academic research platforms such as the series of papers &quot;Art and Science Research&quot; and the WeChat Official Accounts &quot;Art and Science Research&quot;.</p>
-          <p>This discipline mainly uses scientific theories, scientific methods, and technological means to analyze and explore artistic phenomena and their laws in important aspects of artistic development such as artistic expression, artistic communication, and artistic reception from the perspective of scientific cognition. It also analyzes practical problems in artistic innovation practice, and explores new artistic expression spaces through new scientific methods and technological means. This program belongs to an interdisciplinary field that reflects the characteristics of interdisciplinary integration, involving disciplines such as art, game design, cognitive psychology, cognitive science, intelligent science, new media art and technology, computer interaction technology, digital information processing technology, etc., forming a disciplinary feature and advantage of close integration of production, academia, research, and application.</p>
-          <p>‍</p>
-          <h3>Objectives</h3>
-          <p>This program aims to cultivate advanced professionals with a good sense of innovation and research ability, who can engage in research, teaching, creation, management and other work in the interdisciplinary field of art and science, as well as high-level compound innovative talents in various fields such as media and entertainment technology.</p>
-          <p>Graduates of this program are expected to:</p>
-          <ol start="" role="list">
-            <li>Have good moral qualities, academic integrity, comprehensive qualities, and innovative spirit;</li>
-            <li>Master the basic theories and specialized knowledge of this program systematically, and possess artistic literacy and artistic creativity;</li>
-            <li>Be able to comprehensively apply the basic theories and specialized knowledge of this program to independently conduct research on specific topics or artistic creation practices, as well as product and device design and development;</li>
-            <li>Master one foreign language, be proficient in reading professional literature, and have certain foreign language writing skills and international academic communication abilities;</li>
-            <li>Possess the ability to independently analyze and solve theoretical and practical problems related to this discipline, and be able to independently carry out high-level scientific research, creation, design and development work.</li>
-          </ol>
-          <p>‍</p>
-          <h2>Research Direction and Content</h2>
-          <p>This program focuses on the theory and practice of human-computer interaction, the creation and consumption of game works, and the planning and communication of e-sports. By using interdisciplinary theories and research methods, it explores the creative logic and industry development rules in this professional field, and studies the impact of creative achievements on a societal level. By investigating new concepts, new forms, new products, and new applications in this field, it combines the development of art and science in the era of intelligent human-computer interaction with social needs, promotes interaction between academia, industry, and research, and focuses on the research of various issues in the fields of human-computer interaction, games, and e-sports, including basic theories, applied theories, critical theories, and theoretical system construction, to cultivate advanced specialized talents for the development trends of human-computer interaction, games, and e-sports fields.</p>
-          <p>‍</p>
-          <h2>Faculty Team</h2>
-          <p>This program has a high-level interdisciplinary faculty team with academic backgrounds in arts, technology, and humanities. The majority of the faculty are engaged in research areas such as digital media aesthetics, networks and intelligent media, future imaging, interaction design, game design, artistic expression, and scientific cognition. Among them, there are 4 professors and 10 associate professors. At the same time, this professional has also established a high-level and international part-time faculty team.</p>
-          <p>‍</p>
-          <h2>Talent Cultivation</h2>
-          <h3>1. Core courses</h3>
-          <p>Includes foundations of art informatics, design and contemporary culture, theory and practice of human-computer interaction, game design theory, game creation, audiovisual psychology of art, art style studies, innovative methods of design thinking, etc.</p>
-          <p>‍</p>
-          <h3>2. Research platforms</h3>
-          <p>This program has several significant research platforms, including the Beijing Key Laboratory of Digital Animation Technology, the National Demonstration Center for Animation and Digital Media Art Experiment Teaching, and the National Animation Teaching and Research Base. It also has numerous research institutions such as the Animation Research Institute, the Digital Technology and Art R&amp;amp;D Center, the Editorial Department of the China Animation Yearbook, the Asian Animation Research Center, and the China Animation Art Exhibition Hall, forming an integrated platform that combines research, teaching, creation, and production. The professional construction unit is currently the location of the Animation and Digital Media Art Teaching Steering Committee of the Ministry of Education, the National Cultural Department Digital Creative Advanced Training Base, the organizer of the China (Beijing) International College Student Animation Festival, responsible for editing and publishing the China Animation Yearbook, and in charge of the &quot;Joint Cultivation Class for High-end Animation Talents&quot; sponsored by the Ministry of Education and the Ministry of Culture. It is also the base for &quot;Training of Young Backbone Teachers in Animation Major&quot; by the Ministry of Education, the location of the Computer Basic Education Research Association of Chinese Higher Education Institutions, and the location of the Animation and Digital Media Art Professional Committee of the National Higher Education Film and Television Society and the Digital Photography and Videography Committee of China Film and Television Technology Society. It has academic research platforms such as the journal &quot;Art and Science Research&quot;, the WeChat Official Account &quot;Art and Science Research&quot;, interdisciplinary education forums on art and science, academic forums for graduate students in art and science research, the China Esports Cultural Education Industry Alliance, and the China University Esports Association, providing rich resources and diverse platforms for graduate students&#x27; learning and research.</p>
-          <p>‍</p>
-          <h3>3. Awards and Outstanding Journal articles, Invention patents, etc.</h3>
-          <p>In recent years, works by faculty and students have won over 50 awards and nominations in top international festivals and exhibitions, such as the American Student Oscars, New York Design Competition, SIGGRAPH in the United States, Chicago International Film Festival in the United States, Tokyo Anime Festival in Japan, Annecy International Animation Festival in France, Stuttgart Animation Festival in Germany, Roanne International Animation Festival in France, BAF Animation Awards in India, Tehran International Animation Festival in Iran, and One Show in the United States. They have also received over 200 awards in domestic top festivals and exhibitions, such as the Huabiao Awards, Golden Eagle Awards, China International Animation Festival &quot;Golden Monkey Awards,&quot; China International Comics Festival &quot;Golden Dragon Awards,&quot; China Animation Association &quot;Beautiful Monkey Awards,&quot; and Taiwan Times Golden Calf Awards. In addition, they have won important awards in various levels of competitions, such as the China Independent Game Festival, major Game Jams, and game production competitions organized by companies such as Tencent and Giant. Graduate students have also published papers that have won awards such as the Excellent Award in the Graduate Group of the 7th National College Student Film Review Competition and the Bronze Award in the &quot;National Film Studies Youth Scholars Forum&quot; of the Beijing Film Academy.</p>
-          <p>‍</p>
-          <h3>4. Academic Exchange Program</h3>
-          <p>In terms of academic exchange, this program has established multiple academic exchange projects, such as student exchange programs with the Canada-China Arts and Technology Alliance, the University of Aberdeen in the United Kingdom, the National University of Arts in South Korea, and Northeastern University in the United States; &quot;Asia Campus Plan&quot; co-creation projects with Tokyo University of the Arts and Korea National University of Arts in China, Japan, and South Korea; and close cooperation with foreign production companies and institutions, sending teachers abroad for professional learning and project cooperation on a regular basis. International joint practice courses on &quot;Art and Technology Creative Communication,&quot; interactive design, and digital product prototyping have been carried out in collaboration with the Digital Media Center in Canada, Northeastern University in the United States, and Chung-Ang University in South Korea. Teachers are selected every year to participate in international animation festivals and academic exchange activities. Students are encouraged to directly communicate with international masters, test their professional level on the international stage, and learn from high-level talents at home and abroad.</p>
-          <p>‍</p>
-          <h2>Career Path of Graduates</h2>
-          <p>In addition to those who pursue further studies abroad, graduates of this discipline mainly work in higher education institutions such as Beijing Normal University, Sichuan University, Communication University of China, Tsinghua University, and Guangzhou Academy of Fine Arts; traditional media industries such as Xinhua News Agency, CCTV, Beijing TV, Hunan TV, Phoenix TV, and Shandong TV; national institutions such as China Science and Technology Museum, National Museum, National Library, National Film Museum, and Industrial and Commercial Bank of China; as well as international renowned companies such as Yahoo, Google, Airbnb, Scanline VFX, Pixar, and Industrial Light &amp;amp; Magic, and domestic leading new media companies such as Tencent, Alibaba, Baidu, iQiyi, JD.com, ByteDance, and Megvii. Some graduates have also started their own companies related to virtual reality and digital entertainment, developing and selling related products.</p>
-        </div>
-      </div>
-    </div>
-    <div class="footer wf-section">
-      <div class="container w-container">
-        <div class="w-layout-grid footer-grid">
-          <div id="w-node-_5ed0421e-0be0-db8e-91df-9a924edb80a5-4edb80a1">
-            <a id="w-node-_5ed0421e-0be0-db8e-91df-9a924edb80a6-4edb80a1" href="../../index.html" class="w-inline-block"><img src="../../images/cuc-anima-logo-white.svg" loading="lazy" id="w-node-_5ed0421e-0be0-db8e-91df-9a924edb80a7-4edb80a1" alt="cuc-anima-logo-white" class="footer-logo-img"></a>
-          </div>
-          <div id="w-node-_5ed0421e-0be0-db8e-91df-9a924edb80a8-4edb80a1" class="footer-infomation-grid">
-            <div id="w-node-_5ed0421e-0be0-db8e-91df-9a924edb80a9-4edb80a1" class="footer-info-wrapper">
-              <div class="footer-info">
-                <div class="text-block">TEL:</div>
-                <a href="tel:+86010-65783476" class="footer-link">+86 010-65783476</a>
-              </div>
-              <div class="footer-info">
-                <div class="text-block">Email:</div>
-                <a href="mailto:AnimationCUC@gmail.com" class="footer-link">AnimationCUC@gmail.com</a>
-              </div>
-              <div class="footer-info">
-                <div class="text-block">location:</div>
-                <a href="https://goo.gl/maps/VK59Tn8BiqGrpGDt7" target="_blank" class="footer-link">No.1 Dingfuzhuang East Street, Chaoyang District, Beijing, 100024 People&#x27;s Republic of China</a>
-              </div>
-            </div>
-            <div><img src="../../images/erweima.webp" loading="lazy" alt="" class="erweima-img"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6423f73208bd3f6cfa24d960" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-  <script src="../../js/webflow.js" type="text/javascript"></script>
-  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-  <script>
+    <script
+      src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6423f73208bd3f6cfa24d960"
+      type="text/javascript"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <script src="../../js/webflow.js" type="text/javascript"></script>
+    <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
       const mySwiper = new Swiper('#basic-swiper', {
         slidesPerView: 4,
         slidesPerGroup: 1,
@@ -228,31 +564,31 @@
         navigation: {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
-          disabledClass: "is-disabled"
+          disabledClass: 'is-disabled',
         },
         breakpoints: {
           0: {
             slidesPerView: 1,
-            spaceBetween: 0
+            spaceBetween: 0,
           },
           480: {
             slidesPerView: 1,
-            spaceBetween: 0
+            spaceBetween: 0,
           },
           767: {
             slidesPerView: 2,
-            spaceBetween: 10
+            spaceBetween: 10,
           },
           992: {
             slidesPerView: 3,
-            spaceBetween: 15
+            spaceBetween: 15,
           },
           1200: {
             slidesPerView: 4,
-            spaceBetween: 20
-          }
-        }
+            spaceBetween: 20,
+          },
+        },
       });
     </script>
-</body>
+  </body>
 </html>
